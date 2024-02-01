@@ -56,7 +56,6 @@ async function prepare({ code, lang }: Props) {
 
 // the following violates React: aysnc component
 const ShikiRender = dynamic<Props>(
-  // @ts-expect-error
   async () => {
     return async ({ code, lang }) => {
       const html = await prepare({ code, lang });
