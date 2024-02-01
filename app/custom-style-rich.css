@@ -1,0 +1,15 @@
+/* custom css doesn't belong to the original github file */
+.shiki {
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.twoslash .twoslash-popup-code .line {
+  display: inline-block;
+  overflow: auto;
+  max-width: 300px;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+
+/* end of custom css  */
