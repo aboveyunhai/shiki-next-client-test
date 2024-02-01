@@ -1,3 +1,9 @@
+/**
+ * 
+ * this is the abusing async component I want to try out.
+ */
+
+
 'use client';
 import dynamic from 'next/dynamic';
 // TODO: Replace with explicit versions in production
