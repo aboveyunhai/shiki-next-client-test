@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export",
   experimental: {
     urlImports: [
       'https://esm.sh/@shikijs/twoslash@latest/core',
